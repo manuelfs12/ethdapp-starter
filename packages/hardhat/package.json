@@ -1,0 +1,8 @@
+{
+  "name": "@ethdapp/hardhat",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.4"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ethdapp-starter",
+  "version": "0.1.0",
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": "true",
+  "keywords": [
+    "web3",
+    "react",
+    "ethereum",
+    "dapp"
+  ],
+  "author": "Manuel Figueroa",
+  "license": "MIT",
+  "description": "A project starter for developeing web3 DApps with React, Wagmi and Hardhat"
+}
