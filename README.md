@@ -38,10 +38,16 @@ Compiles the contracts inside the hardhat project.
 npm run hardhat:test
 ```
 
-Runs the tests inside the test directory in the hardhat project. We can pass in a path to a specific test file with `-- path-to-file`
+Runs the tests inside the test directory in the hardhat project.
+
+```bash
+npm run hardhat:test -- path-to-file
+```
+
+Run the test on the specific file.
 
 ```bash
 npm run hardhat:node
 ```
 
-Starts a JSON-RPC server on top of the Hardhat Nework.
+Starts a JSON-RPC server on top of the Hardhat Network.
