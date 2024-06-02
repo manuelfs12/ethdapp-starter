@@ -1,5 +1,5 @@
 {
-  "name": "ethdapp-starter",
+  "name": "ethdapp",
   "version": "0.1.0",
   "workspaces": {
     "packages": [
@@ -8,7 +8,12 @@
     ]
   },
   "scripts": {
-    "start-frontend": "npm run -w @ethdapp/react dev"
+    "start-frontend": "npm run -w @ethdapp/react dev",
+    "hardhat:compile": "npm exec -w @ethdapp/hardhat hardhat compile",
+    "hardhat:clean": "npm exec -w @ethdapp/hardhat hardhat clean",
+    "hardhat:help": "npm exec -w @ethdapp/hardhat hardhat help",
+    "hardhat:node": "npx exec -w @ethdapp/hardhat hardhat node",
+    "hardhat:test": "npm exec -w @ethdapp/hardhat hardhat test"
   },
   "private": "true",
   "keywords": [
