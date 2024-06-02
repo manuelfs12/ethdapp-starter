@@ -8,7 +8,10 @@
     ]
   },
   "scripts": {
-    "start-frontend": "npm run -w @ethdapp/react dev",
+    "react:dev": "npm run -w @ethdapp/react dev --silent",
+    "react:build": "npm run -w @ethdapp/react build",
+    "react:lint": "npm run -w @ethdapp/react lint",
+    "react:preview": "npm run -w @ethdapp/react preview",
     "hardhat:compile": "npm exec -w @ethdapp/hardhat hardhat compile",
     "hardhat:clean": "npm exec -w @ethdapp/hardhat hardhat clean",
     "hardhat:help": "npm exec -w @ethdapp/hardhat hardhat help",
